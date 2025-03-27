@@ -29,7 +29,7 @@ def savefig(args):
     plt.savefig(args.outfig, dpi=300)
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentDefaultsHelpFormatter()
+    parser = argparse.ArgumentParser()
     parser.add_argument("-emd_pkl", type=str)
     parser.add_argument("-ncomp", type=int, default=10)
     parser.add_argument("-outfig", type=str)
