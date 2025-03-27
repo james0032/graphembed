@@ -23,7 +23,7 @@ def savefig(args):
     axes[1].set_ylim(0,1)
     axes[1].set_xlabel("Number of PCs")
     axes[1].set_ylabel("Cumulative explained Variance")
-    fig.suptitle(args.title)
+    fig.suptitle(args.fig_title)
     sbn.despine()
     fig.tight_layout()
     plt.savefig(args.outfig, dpi=300)
