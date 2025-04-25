@@ -1,5 +1,7 @@
 .venv/
 genesight
 notebooks
+files
+nodenorm
 
 .DS_Store
